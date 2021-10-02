@@ -1,0 +1,13 @@
+{
+  "name": "componenta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "api": "node run api.js"
+  },
+  "author": "",
+  "dependencies": {
+    "uuidv4": "^6.2.10"
+  }
+}

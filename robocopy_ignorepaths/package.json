@@ -1,0 +1,17 @@
+{
+  "name": "robocopy_ignorepaths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "delete": "del-cli --force ./dist",
+    "pack":   "robocopy ./src ./dist /mir /xd storybook" ,
+    "copy":   "npm run delete && npm run pack" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "del-cli": "^4.0.1"
+  }
+}

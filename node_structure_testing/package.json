@@ -1,0 +1,15 @@
+{
+  "name": "node_components",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main/server.js",
+  "scripts": {
+    "server": "nodemon ./main/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9"
+  },
+  "author":  "",
+  "license": "ISC"
+}
