@@ -6,7 +6,7 @@ const { asyncSupport } = require('@codedevbrad/serverutils');
 async function publish( val ) {
 
     try {
-        const amqpServer = "amqps://fnvtgenr:Rm9LHMmjzhwppaCXl5RI-SRaQPXO_hdA@rattlesnake.rmq.cloudamqp.com/fnvtgenr"
+        const amqpServer = "
         const connection = await amqp.connect(amqpServer)
         const channel = await connection.createChannel();
         await channel.assertQueue("jobs");
